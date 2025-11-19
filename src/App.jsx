@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import OtpGenerator from './components/OtpGenerator';
+import Footer from './components/Footer';
 
 
 /**
@@ -12,7 +13,10 @@ function App() {
 
   return (
     <>
-    <OtpGenerator/>
+      <main class="bg-gray-900">
+        <OtpGenerator />
+        <Footer />
+      </main>
     </>
   )
 }
